@@ -1,7 +1,7 @@
 import client from './client'
 
 export const register = (data) =>
-  client.post('/api/users/register', data)
+  client.post('/api/users', data)
 
 export const login = (data) =>
   client.post('/api/users/login', data)
